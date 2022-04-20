@@ -1,7 +1,7 @@
 **生產者消費者模式實作**
 ---
 ## 一. 基本介紹
-ReentrantLock 是屬於Lock的一種實作，功能與synchronized相似，  
+ReentrantLock. 可重入鎖，是屬於Lock的一種實作，功能與synchronized相似，  
 差別在於ReentrantLock需要由開發人員控制```lock```與```unlock```，  
 synchronized則是會自動控制鎖。
 
